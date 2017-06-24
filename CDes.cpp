@@ -2,6 +2,9 @@
 #include <string.h>
 #include "CDes.h"
 
+
+
+
 int CBase64::Encode(const unsigned char *pSrc, char *pDst, int nSrcLen, int nMaxLineLen)
 {
 	const char EncodeTab[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
